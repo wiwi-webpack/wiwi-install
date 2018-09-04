@@ -1,0 +1,24 @@
+{
+  "name": "wiwi-install",
+  "version": "1.0.0",
+  "description": "plugin install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiwi-webpack/wiwi-install.git"
+  },
+  "keywords": [],
+  "author": "pitaya <cnzhejiang@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiwi-webpack/wiwi-install/issues"
+  },
+  "homepage": "https://github.com/wiwi-webpack/wiwi-install#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "npminstall": "^3.11.0"
+  }
+}
