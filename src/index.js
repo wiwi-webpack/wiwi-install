@@ -34,7 +34,7 @@ module.exports = {
             root: process.cwd(),
             pkgs: plugins.map(function(plugin) {
                 return {
-                    name: !/^glon\-/.test(plugin) ? 'glon-' + plugin : plugin,
+                    name: !/^wiwi\-/.test(plugin) ? 'wiwi-' + plugin : plugin,
                     version: wiwiVersion.split('.')[0]
                 };
             })
@@ -55,8 +55,8 @@ module.exports = {
         // set peer install dir
         var npmPrefix = path.join(this.parent._moduleDirs[1], '..');
         config.targetDir = npmPrefix;
-        config.binDir = path.join(os.homedir(), '.glon', 'install', '.bin');
-        config.storeDir = path.join(os.homedir(), '.glon', 'install');
+        config.binDir = path.join(os.homedir(), '.wiwi', 'install', '.bin');
+        config.storeDir = path.join(os.homedir(), '.wiwi', 'install');
 
         // run npm install
         co(function*() {
